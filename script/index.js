@@ -18,6 +18,8 @@ $(".pl-select-img").on("click", function () {
 
   $(".winner-display").fadeOut();
 
+  $(".pl-select-img").addClass("unclickable");
+
   displayUserSelect(userChoice);
 
   setTimeout(() => {
@@ -59,7 +61,7 @@ $(".pl-select-img").on("click", function () {
     $(".start-button").show(1500);
 
     $(".winner-display").fadeIn(2500);
-    
+
   }, 1500);
 
 });
@@ -130,6 +132,7 @@ $(".start-button").on("click", function () {
     $(".pl-select-img").removeClass("not-picked")
   };
 
+  $(".pl-select-img").removeClass("unclickable");
   $(".computer-choice-text").remove();
   $(".user-choice-text").remove();
   $(".winner-display").removeClass("winner loser");

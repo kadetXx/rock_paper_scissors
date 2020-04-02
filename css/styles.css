@@ -26,6 +26,10 @@ img {
   color: red;
 }
 
+.unclickable {
+  pointer-events: none;
+}
+
 
 /************ MAIN SECTION ************/
 
