@@ -1,1 +1,1 @@
-# Rock_Paper_Scissors Web Game
+# Rock Paper Scissors Web Game
