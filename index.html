@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Online RPS</title>
+</head>
+
+<body>
+  <section id="header">
+
+    <!-- Begin Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Rock Paper Scissors</a>
+
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Instructions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Github</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- End Navbar -->
+  </section>
+
+
+  <section id="main-content">
+    <div class="conntainer-fluid">
+      <div class="row">
+        <div class="col-lg-5 col-md-12 col-sm-12 player-select">
+          <h3 class="player-heading">Player One</h3>
+          <img id="rock" class="pl-select-img img-fluid" src="images/rock.png" alt="rock img">
+          <img id="paper" class="pl-select-img img-fluid" src="images/paper.png" alt="paper img">
+          <img id="scissors" class="pl-select-img img-fluid" src="images/scissors.png" alt="scissors img">
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-12 versus-text-container">
+          <h2 class="versus-text">Vs</h2>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12 computer-select">
+          <h3 class="player-heading">Computer</h3>
+          <img class="comp-select-img" src="images/giphy.gif" alt="rock img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="score-display">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h3 class="winner-display">Pick An OPtion</h3>
+          <button type="button" class="btn btn-outline-dark start-button">Play Again</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 
+  <section id="game=start">
+    <div class="start-button-only">
+      <button class="start-button">Click To Start Game</button>
+    </div>
+    <div class="container options">
+      <img id="r" class="choices-img" src="images/rock.png" alt="rock img">
+      <img id="p" class="choices-img" src="images/paper.png" alt="paper img">
+      <img id="s" class="choices-img" src="images/scissors.png" alt="scissors img">
+    </div>
+    <div class="popup">
+      <img src="https://media.giphy.com/media/3ohBV3swUjlLSwyaTm/giphy.gif" alt=robot loading">
+    </div>
+  </section> -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script/index.js?n=1"></script>
+</body>
+
+</html>

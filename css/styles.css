@@ -1,0 +1,136 @@
+/************ MAIN CSS ************/
+
+body {
+  text-align: center;
+}
+
+img {
+  position: relative;
+  width: 30%;
+  border-radius: 50px;
+}
+
+.pl-select-img:hover {
+  transform: rotate(3deg);
+}
+
+.not-picked {
+  display: none;
+}
+
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+
+/************ MAIN SECTION ************/
+
+#main-content {
+  padding: 3% 7% 1%;
+}
+
+.versus-text {
+  font-size: 70px;
+  line-height: 300px;
+}
+
+.player-heading {
+  padding: 3% 0 10%;
+}
+
+
+/************ BUTTONS************/
+
+.start-button {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/************ NAV BAR ************/
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.navbar-nav .nav-item {
+  padding: 0 20px;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+ 
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+ 
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+@media screen and (max-width: 992px) {
+
+  .winner-display {
+    font-size: 20px;
+    padding: 20px 0 0;
+  }
+
+  .navbar-nav {
+    margin: 0 0;
+  }
+
+  .navbar-nav .nav-item {
+    padding: 0 0;
+  }
+  
+  .versus-text {
+    font-size: 50px;
+    line-height: 0px;
+    padding: 10% 0 7%;
+  }
+
+  .player-heading {
+    padding: 3% 0 5%;
+  }
+}
