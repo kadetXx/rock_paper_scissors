@@ -30,27 +30,27 @@ $(".pl-select-img").on("click", function () {
 
     if (userChoice === "rock" && computerChoice === options[1]) {
       $(".winner-display").addClass("loser");
-      $(".winner-display").text("You Lost!");
+      $(".winner-display").text("You Loose!");
     } 
     else if (userChoice === "rock" && computerChoice === options[2]) {
       $(".winner-display").addClass("winner");
-      $(".winner-display").text("You Won!");
+      $(".winner-display").text("You Win!");
     }
     else if (userChoice === "paper" && computerChoice === options[0]) {
       $(".winner-display").addClass("winner");
-      $(".winner-display").text("You Won!");
+      $(".winner-display").text("You Win!");
     }
     else if (userChoice === "paper" && computerChoice === options[2]) {
       $(".winner-display").addClass("loser");
-      $(".winner-display").text("You Lost!");
+      $(".winner-display").text("You Loose!");
     }
     else if (userChoice === "scissors" && computerChoice === options[0]) {
       $(".winner-display").addClass("loser");
-      $(".winner-display").text("You Lost!");
+      $(".winner-display").text("You Loose!");
     }
     else if (userChoice === "scissors" && computerChoice === options[1]) {
       $(".winner-display").addClass("winner");
-      $(".winner-display").text("You Won!");
+      $(".winner-display").text("You Win!");
     }
     else {
       $(".winner-display").text("Draw!");
