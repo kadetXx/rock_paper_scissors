@@ -1,1 +1,1 @@
-# Rock Paper Scissors Web Game
+# Rock Paper Scissors Game
